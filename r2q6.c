@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 int main(void){
@@ -37,7 +38,7 @@ int main(void){
             printf("Número nao possui o traço separador. Vou acresccentar traço separador");
             j=0;
             for(i=0 ; i<8 ; i++){
-                if(i=4){
+                if(i==4){
                     numeroCopy[j]='-';
                     j++;
                 }
